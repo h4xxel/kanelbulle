@@ -1,4 +1,4 @@
-update=ons 28 jan 2015 14:06:50
+update=ons 28 jan 2015 15:43:00
 version=1
 last_client=cvpcb
 [pcbnew]
@@ -38,6 +38,7 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=LQFP48
+LibName18=PLCC4
 LibDir=
 [general]
 version=1
@@ -81,6 +82,7 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=LPC1114
+LibName32=led_rgb
 [cvpcb]
 version=1
 NetIExt=net
