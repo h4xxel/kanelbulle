@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = ons 28 jan 2015 14:07:12
+
+BeginCmp
+TimeStamp = /54C8D9E1;
+Reference = J1;
+ValeurCmp = USB;
+IdModule  = USB_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C8DD37;
+Reference = U1;
+ValeurCmp = LPC1114/302;
+IdModule  = LQFP48;
+EndCmp
+
+EndListe
