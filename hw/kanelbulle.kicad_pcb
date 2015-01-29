@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 125.541668 76.925001 222.516701 136.000001)
+    (area 125.541668 76.925001 219.722701 136.000001)
     (thickness 1.6)
     (drawings 5)
     (tracks 0)
@@ -294,6 +294,11 @@
     )
     (pad 24 smd rect (at 2.74828 -4.09702) (size 0.24892 0.8001)
       (layers B.Cu B.Paste B.Mask)
+    )
+    (model lqfp48.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
