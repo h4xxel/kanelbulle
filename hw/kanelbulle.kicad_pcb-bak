@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 142.511888 86.511888 191.488112 135.488112)
+    (area 125.541668 55.173637 222.567501 136.000001)
     (thickness 1.6)
     (drawings 5)
     (tracks 0)
@@ -137,7 +137,7 @@
   )
 
   (module LQFP48 (layer B.Cu) (tedit 4C433D64) (tstamp 54C8DF4B)
-    (at 166 111)
+    (at 176.276 102.108)
     (path /54C8DD37)
     (attr smd)
     (fp_text reference U1 (at 0 0.381) (layer B.SilkS)
@@ -298,7 +298,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F5E1)
-    (at 197.866 129.794)
+    (at 178.308 108.204)
     (path /54C8F212)
     (fp_text reference D39 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -327,7 +327,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F5EF)
-    (at 196.342 123.444)
+    (at 178.308 99.568)
     (path /54C8F1CA)
     (fp_text reference D27 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -356,7 +356,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F5FD)
-    (at 200.406 123.444)
+    (at 181.356 104.14)
     (path /54C8F1D0)
     (fp_text reference D28 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -385,7 +385,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F60B)
-    (at 204.978 123.444)
+    (at 184.404 111.252)
     (path /54C8F1D6)
     (fp_text reference D29 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -414,7 +414,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F619)
-    (at 209.042 123.444)
+    (at 182.118 118.11)
     (path /54C8F1DC)
     (fp_text reference D30 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -443,7 +443,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F627)
-    (at 213.868 123.444)
+    (at 178.054 122.682)
     (path /54C8F1E2)
     (fp_text reference D31 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -472,7 +472,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F635)
-    (at 217.678 123.444)
+    (at 171.45 125.984)
     (path /54C8F1E8)
     (fp_text reference D32 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -501,7 +501,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F643)
-    (at 221.488 123.444)
+    (at 164.084 125.984)
     (path /54C8F1EE)
     (fp_text reference D33 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -530,7 +530,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F651)
-    (at 225.298 123.444)
+    (at 159.004 123.698)
     (path /54C8F1F4)
     (fp_text reference D34 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -559,7 +559,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F65F)
-    (at 229.108 123.444)
+    (at 154.686 118.364)
     (path /54C8F1FA)
     (fp_text reference D35 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -588,7 +588,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F66D)
-    (at 232.918 123.444)
+    (at 151.13 112.268)
     (path /54C8F200)
     (fp_text reference D36 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -617,7 +617,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F67B)
-    (at 205.486 129.794)
+    (at 167.132 101.346)
     (path /54C8F206)
     (fp_text reference D37 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -646,7 +646,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F689)
-    (at 201.676 129.794)
+    (at 173.228 103.886)
     (path /54C8F20C)
     (fp_text reference D38 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -675,7 +675,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F697)
-    (at 191.77 123.19)
+    (at 174.244 98.044)
     (path /54C8F1C4)
     (fp_text reference D26 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -704,7 +704,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F6A5)
-    (at 194.056 129.794)
+    (at 178.054 114.3)
     (path /54C8F218)
     (fp_text reference D40 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -733,7 +733,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F6B3)
-    (at 190.246 129.794)
+    (at 173.736 119.634)
     (path /54C8F21E)
     (fp_text reference D41 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -762,7 +762,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F6C1)
-    (at 186.436 129.794)
+    (at 167.132 121.158)
     (path /54C8F224)
     (fp_text reference D42 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -791,7 +791,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F6CF)
-    (at 182.626 129.794)
+    (at 161.036 116.586)
     (path /54C8F22A)
     (fp_text reference D43 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -820,7 +820,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F6DD)
-    (at 178.816 129.794)
+    (at 156.972 111.252)
     (path /54C8F230)
     (fp_text reference D44 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -849,7 +849,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F6EB)
-    (at 175.006 129.794)
+    (at 161.036 103.124)
     (path /54C8F236)
     (fp_text reference D45 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -878,7 +878,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F6F9)
-    (at 206.502 135.636)
+    (at 163.322 112.268)
     (path /54C8F23C)
     (fp_text reference D46 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -907,7 +907,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F707)
-    (at 210.312 135.636)
+    (at 169.164 116.586)
     (path /54C8F242)
     (fp_text reference D47 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -936,7 +936,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F715)
-    (at 214.122 135.636)
+    (at 174.244 114.3)
     (path /54C8F248)
     (fp_text reference D48 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -965,7 +965,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F723)
-    (at 217.932 135.636)
+    (at 171.196 108.204)
     (path /54C8F24E)
     (fp_text reference D49 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -994,7 +994,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F731)
-    (at 221.742 135.636)
+    (at 163.83 106.934)
     (path /54C8F254)
     (fp_text reference D50 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1023,7 +1023,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F73F)
-    (at 194.31 140.97)
+    (at 167.386 110.49)
     (path /54C8F25A)
     (fp_text reference D51 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1052,7 +1052,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F74D)
-    (at 194.31 116.84)
+    (at 188.468 106.68)
     (path /54C8F17C)
     (fp_text reference D14 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1081,7 +1081,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F75B)
-    (at 199.644 116.84)
+    (at 189.23 112.522)
     (path /54C8F12A)
     (fp_text reference D2 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1110,7 +1110,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F769)
-    (at 209.296 116.332)
+    (at 184.658 122.682)
     (path /54C8F13A)
     (fp_text reference D3 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1139,7 +1139,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F777)
-    (at 213.868 116.078)
+    (at 180.594 127.762)
     (path /54C8F140)
     (fp_text reference D4 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1168,7 +1168,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F785)
-    (at 218.948 115.824)
+    (at 175.26 130.048)
     (path /54C8F146)
     (fp_text reference D5 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1197,7 +1197,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F793)
-    (at 223.52 115.824)
+    (at 167.64 132.08)
     (path /54C8F14C)
     (fp_text reference D6 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1226,7 +1226,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F7A1)
-    (at 204.47 116.84)
+    (at 187.96 117.602)
     (path /54C8F152)
     (fp_text reference D7 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1255,7 +1255,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F7AF)
-    (at 228.346 116.078)
+    (at 160.782 130.302)
     (path /54C8F158)
     (fp_text reference D8 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1284,7 +1284,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F7BD)
-    (at 189.992 116.84)
+    (at 186.436 100.838)
     (path /54C8F15E)
     (fp_text reference D9 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1313,7 +1313,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F7CB)
-    (at 185.928 116.84)
+    (at 182.372 96.774)
     (path /54C8F164)
     (fp_text reference D10 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1342,7 +1342,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F7D9)
-    (at 181.864 117.094)
+    (at 178.308 92.71)
     (path /54C8F16A)
     (fp_text reference D11 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1371,7 +1371,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F7E7)
-    (at 177.8 117.094)
+    (at 172.974 91.186)
     (path /54C8F170)
     (fp_text reference D12 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1400,7 +1400,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F7F5)
-    (at 174.498 116.84)
+    (at 167.894 89.662)
     (path /54C8F176)
     (fp_text reference D13 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1429,7 +1429,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F803)
-    (at 233.426 116.586)
+    (at 153.67 127)
     (path /54C8F11D)
     (fp_text reference D1 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1458,7 +1458,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F811)
-    (at 237.998 116.586)
+    (at 149.352 121.666)
     (path /54C8F182)
     (fp_text reference D15 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1487,7 +1487,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F81F)
-    (at 242.57 116.586)
+    (at 146.05 116.332)
     (path /54C8F188)
     (fp_text reference D16 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1516,7 +1516,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F82D)
-    (at 251.206 116.586)
+    (at 147.32 103.378)
     (path /54C8F18E)
     (fp_text reference D17 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1545,7 +1545,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F83B)
-    (at 247.142 116.332)
+    (at 144.78 109.982)
     (path /54C8F194)
     (fp_text reference D18 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1574,7 +1574,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F849)
-    (at 255.524 116.586)
+    (at 151.384 97.282)
     (path /54C8F19A)
     (fp_text reference D19 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1603,7 +1603,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F857)
-    (at 261.874 116.84)
+    (at 159.512 90.932)
     (path /54C8F1A0)
     (fp_text reference D20 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1632,7 +1632,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F865)
-    (at 184.15 123.444)
+    (at 168.402 95.758)
     (path /54C8F1A6)
     (fp_text reference D21 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1661,7 +1661,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F873)
-    (at 245.618 123.444)
+    (at 158.75 98.044)
     (path /54C8F1AC)
     (fp_text reference D22 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1690,7 +1690,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F881)
-    (at 250.698 123.444)
+    (at 163.322 96.012)
     (path /54C8F1B2)
     (fp_text reference D23 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1719,7 +1719,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F88F)
-    (at 237.49 123.444)
+    (at 152.908 106.68)
     (path /54C8F1B8)
     (fp_text reference D24 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -1748,7 +1748,7 @@
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F89D)
-    (at 241.554 123.444)
+    (at 155.702 102.108)
     (path /54C8F1BE)
     (fp_text reference D25 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))

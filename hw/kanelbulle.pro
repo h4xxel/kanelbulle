@@ -1,6 +1,6 @@
-update=ons 28 jan 2015 15:43:00
+update=ons 28 jan 2015 16:46:19
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -42,6 +42,11 @@ LibName18=PLCC4
 LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -83,8 +88,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=LPC1114
 LibName32=led_rgb
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName33=pca9685
