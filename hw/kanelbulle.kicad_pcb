@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 142.511888 86.511888 191.488112 135.488112)
+    (area 125.541668 76.925001 222.516701 136.000001)
     (thickness 1.6)
     (drawings 5)
     (tracks 0)
@@ -99,7 +99,7 @@
   )
 
   (module USB_A (layer F.Cu) (tedit 48A934F2) (tstamp 54C8DF12)
-    (at 209.296 94.996)
+    (at 206.502 94.742)
     (path /54C8D9E1)
     (fp_text reference J1 (at 7.62 2.54) (layer F.SilkS)
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
@@ -324,6 +324,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F5EF)
@@ -352,6 +357,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -382,6 +392,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F60B)
@@ -410,6 +425,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -440,6 +460,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F627)
@@ -468,6 +493,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -498,6 +528,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F643)
@@ -526,6 +561,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -556,6 +596,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F65F)
@@ -584,6 +629,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -614,6 +664,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F67B)
@@ -642,6 +697,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -672,6 +732,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F697)
@@ -700,6 +765,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -730,6 +800,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F6B3)
@@ -758,6 +833,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -788,6 +868,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F6CF)
@@ -816,6 +901,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -846,6 +936,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F6EB)
@@ -874,6 +969,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -904,6 +1004,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F707)
@@ -932,6 +1037,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -962,6 +1072,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F723)
@@ -990,6 +1105,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1020,6 +1140,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F73F)
@@ -1048,6 +1173,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1078,6 +1208,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F75B)
@@ -1106,6 +1241,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1136,6 +1276,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F777)
@@ -1164,6 +1309,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1194,6 +1344,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F793)
@@ -1222,6 +1377,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1252,6 +1412,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F7AF)
@@ -1280,6 +1445,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1310,6 +1480,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F7CB)
@@ -1338,6 +1513,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1368,6 +1548,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F7E7)
@@ -1396,6 +1581,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1426,6 +1616,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F803)
@@ -1454,6 +1649,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1484,6 +1684,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F81F)
@@ -1512,6 +1717,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1542,6 +1752,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F83B)
@@ -1570,6 +1785,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1600,6 +1820,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F857)
@@ -1628,6 +1853,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1658,6 +1888,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F873)
@@ -1686,6 +1921,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1716,6 +1956,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F88F)
@@ -1745,6 +1990,11 @@
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module PLCC4 (layer F.Cu) (tedit 54C8F54D) (tstamp 54C8F89D)
@@ -1773,6 +2023,11 @@
     )
     (pad 4 smd rect (at -0.762 -1.397) (size 0.8 0.8)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model led_rgb.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
