@@ -1,4 +1,4 @@
-update=ons 28 jan 2015 16:46:19
+update=mån  2 feb 2015 12:17:01
 version=1
 last_client=eeschema
 [pcbnew]
@@ -50,7 +50,7 @@ EquName1=devcms
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
