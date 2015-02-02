@@ -28,8 +28,8 @@ IN THE SOFTWARE.
 #include <unistd.h>
 #include <math.h>
 
-#define	RADIUS		(46.f / 2)
-#define	LEDS		20
+#define	RADIUS		(33.f / 2)
+#define	LEDS		15
 #define	OFFSET_X	200
 #define	OFFSET_Y	150
 
