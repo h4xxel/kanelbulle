@@ -1,6 +1,6 @@
-update=mån  2 feb 2015 12:17:01
+update=tis  3 feb 2015 14:29:53
 version=1
-last_client=eeschema
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -39,14 +39,11 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=LQFP48
 LibName18=PLCC4
+LibName19=USB_FULHAKK
+LibName20=SMD_ARRAY
 LibDir=
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -89,3 +86,8 @@ LibName30=valves
 LibName31=LPC1114
 LibName32=led_rgb
 LibName33=pca9685
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
