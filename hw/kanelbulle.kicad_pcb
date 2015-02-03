@@ -3,7 +3,7 @@
   (general
     (links 265)
     (no_connects 58)
-    (area 174.924999 124.924999 225.075001 175.075001)
+    (area 55.232299 117.925001 225.075001 238.455201)
     (thickness 1.6)
     (drawings 3)
     (tracks 511)
@@ -59,8 +59,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFFFF)
     (pcbplotparams
-      (layerselection 3178497)
-      (usegerberextensions true)
+      (layerselection 1)
+      (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.150000)
       (plotframeref false)
@@ -79,9 +79,9 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 2)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
@@ -212,7 +212,7 @@
   )
 
   (module USB_A (layer F.Cu) (tedit 48A934F2) (tstamp 54C8DF12)
-    (at 206.502 94.742)
+    (at 56.642 178.816)
     (path /54C8D9E1)
     (fp_text reference J1 (at 7.62 2.54) (layer F.SilkS)
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
@@ -2967,7 +2967,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 54CF62F8)
-    (at 158.115 101.219)
+    (at 90.805 194.691)
     (path /54CFD5D5)
     (attr smd)
     (fp_text reference R2 (at 0 0.3175) (layer B.SilkS)
@@ -2999,7 +2999,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 54CF6223)
-    (at 158.115 98.425)
+    (at 90.805 191.897)
     (path /54CFD5E2)
     (attr smd)
     (fp_text reference R1 (at 0 0.3175) (layer B.SilkS)
@@ -3031,7 +3031,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 54CF62ED)
-    (at 149.479 135.636 90)
+    (at 78.105 199.644 90)
     (path /54CFF7A2)
     (attr smd)
     (fp_text reference R10 (at 0 0.3175 90) (layer B.SilkS)
@@ -3063,7 +3063,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 54CF62FA)
-    (at 147.447 135.636 90)
+    (at 76.073 199.644 90)
     (path /54CFF7A8)
     (attr smd)
     (fp_text reference R11 (at 0 0.3175 90) (layer B.SilkS)
@@ -3095,7 +3095,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 54CF6307)
-    (at 145.4785 135.6995 90)
+    (at 74.1045 199.7075 90)
     (path /54CFF7C2)
     (attr smd)
     (fp_text reference R12 (at 0 0.3175 90) (layer B.SilkS)
@@ -3127,7 +3127,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 54CF6314)
-    (at 143.51 135.636 90)
+    (at 72.136 199.644 90)
     (path /54CFF7D2)
     (attr smd)
     (fp_text reference R13 (at 0 0.3175 90) (layer B.SilkS)
@@ -3159,7 +3159,7 @@
   )
 
   (module SM0805 (layer B.Cu) (tedit 5091495C) (tstamp 54CF6321)
-    (at 141.605 135.636 90)
+    (at 70.231 199.644 90)
     (path /54CFF7D8)
     (attr smd)
     (fp_text reference R14 (at 0 0.3175 90) (layer B.SilkS)
@@ -3351,7 +3351,7 @@
   )
 
   (module SM1206 (layer F.Cu) (tedit 42806E24) (tstamp 54CFD218)
-    (at 227.457 169.926)
+    (at 91.186 236.982)
     (path /54CFB5F9)
     (attr smd)
     (fp_text reference C2 (at 0 0) (layer F.SilkS)
@@ -3382,7 +3382,7 @@
   )
 
   (module SM1206 (layer F.Cu) (tedit 42806E24) (tstamp 54CFD224)
-    (at 228.0285 166.116)
+    (at 92.456 230.886)
     (path /54CFB624)
     (attr smd)
     (fp_text reference C1 (at 0 0) (layer F.SilkS)
@@ -3413,7 +3413,7 @@
   )
 
   (module SM0805 (layer F.Cu) (tedit 5091495C) (tstamp 54CFD231)
-    (at 233.9975 172.466)
+    (at 87.6935 213.106)
     (path /54CFB606)
     (attr smd)
     (fp_text reference C3 (at 0 -0.3175) (layer F.SilkS)
@@ -3445,7 +3445,7 @@
   )
 
   (module SM0805 (layer F.Cu) (tedit 5091495C) (tstamp 54CFD23E)
-    (at 235.0135 174.5615)
+    (at 88.7095 215.2015)
     (path /54CFB60C)
     (attr smd)
     (fp_text reference C4 (at 0 -0.3175) (layer F.SilkS)
@@ -3477,7 +3477,7 @@
   )
 
   (module SM0805 (layer F.Cu) (tedit 5091495C) (tstamp 54CFD24B)
-    (at 235.458 176.53)
+    (at 89.154 217.17)
     (path /54CFB612)
     (attr smd)
     (fp_text reference C5 (at 0 -0.3175) (layer F.SilkS)
@@ -3509,7 +3509,7 @@
   )
 
   (module SM0805 (layer F.Cu) (tedit 5091495C) (tstamp 54CFD258)
-    (at 235.331 178.6255)
+    (at 89.027 219.2655)
     (path /54CFB618)
     (attr smd)
     (fp_text reference C6 (at 0 -0.3175) (layer F.SilkS)
@@ -3541,7 +3541,7 @@
   )
 
   (module SM0805 (layer F.Cu) (tedit 5091495C) (tstamp 54CFD265)
-    (at 233.934 170.2435)
+    (at 87.63 210.8835)
     (path /54CFB61E)
     (attr smd)
     (fp_text reference C7 (at 0 -0.3175) (layer F.SilkS)
