@@ -1,0 +1,44 @@
+PCBNEW-LibModule-V1  tis  3 feb 2015 12:05:23
+# encoding utf-8
+Units mm
+$INDEX
+USB_FULHAKK
+$EndINDEX
+$MODULE USB_FULHAKK
+Po 0 0 0 15 54D0A9DD 00000000 ~~
+Li USB_FULHAKK
+Sc 0
+AR 
+Op 0 0 0
+T0 3.5 -1 0.5 0.5 0 0.125 N V 21 N "USB_FULHAKK"
+T1 3.5 1 0.5 0.5 0 0.125 N V 21 N "VAL**"
+$PAD
+Sh "1" R 1 2.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" R 1 2.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7 0
+$EndPAD
+$PAD
+Sh "GND" R 2 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 0
+$EndPAD
+$PAD
+Sh "GND" R 2 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 9 0
+$EndPAD
+$EndMODULE USB_FULHAKK
+$EndLIBRARY

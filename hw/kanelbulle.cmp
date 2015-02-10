@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = mån  2 feb 2015 20:37:26
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = tis  3 feb 2015 14:30:54
 
 BeginCmp
 TimeStamp = /54CFB624;
@@ -47,6 +47,13 @@ TimeStamp = /54CFB61E;
 Reference = C7;
 ValeurCmp = C;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0ACCA;
+Reference = C8;
+ValeurCmp = C;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -407,10 +414,17 @@ IdModule  = PLCC4;
 EndCmp
 
 BeginCmp
-TimeStamp = /54C8D9E1;
-Reference = J1;
+TimeStamp = /54D0B230;
+Reference = P1;
 ValeurCmp = USB;
-IdModule  = USB_A;
+IdModule  = USB_FULHAKK;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0C980;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = SMD_ARRAY-6X1;
 EndCmp
 
 BeginCmp
@@ -579,6 +593,13 @@ TimeStamp = /54CF914F;
 Reference = U5;
 ValeurCmp = ULN2003A;
 IdModule  = SO16E;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0A621;
+Reference = U6;
+ValeurCmp = NCP1117ST33T3G;
+IdModule  = DPAK2;
 EndCmp
 
 EndListe
