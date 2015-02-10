@@ -1,52 +1,8 @@
-update=mån  2 feb 2015 12:17:01
+update=tis  3 feb 2015 16:43:47
 version=1
-last_client=eeschema
-[pcbnew]
-version=1
-LastNetListRead=
-UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
-PcbTextSizeV=1.500000000000
-PcbTextSizeH=1.500000000000
-PcbTextThickness=0.300000000000
-ModuleTextSizeV=1.000000000000
-ModuleTextSizeH=1.000000000000
-ModuleTextSizeThickness=0.150000000000
-SolderMaskClearance=0.000000000000
-SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
-BoardOutlineThickness=0.100000000000
-ModuleOutlineThickness=0.150000000000
-[pcbnew/libraries]
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=smd_capacitors
-LibName7=smd_resistors
-LibName8=smd_crystal&oscillator
-LibName9=smd_dil
-LibName10=smd_transistors
-LibName11=libcms
-LibName12=display
-LibName13=led
-LibName14=dip_sockets
-LibName15=pga_sockets
-LibName16=valves
-LibName17=LQFP48
-LibName18=PLCC4
-LibDir=
+last_client=pcbnew
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -89,3 +45,50 @@ LibName30=valves
 LibName31=LPC1114
 LibName32=led_rgb
 LibName33=pca9685
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[pcbnew]
+version=1
+LastNetListRead=
+UseCmpFile=1
+PadDrill="    0,000000"
+PadDrillOvalY="    0,000000"
+PadSizeH="    2,000000"
+PadSizeV="    3,000000"
+PcbTextSizeV="    1,000000"
+PcbTextSizeH="    1,000000"
+PcbTextThickness="    0,300000"
+ModuleTextSizeV="    1,000000"
+ModuleTextSizeH="    1,000000"
+ModuleTextSizeThickness="    0,150000"
+SolderMaskClearance="    0,000000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,200000"
+BoardOutlineThickness="    0,150000"
+ModuleOutlineThickness="    0,150000"
+[pcbnew/libraries]
+LibDir=
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=smd_capacitors
+LibName7=smd_resistors
+LibName8=smd_crystal&oscillator
+LibName9=smd_dil
+LibName10=smd_transistors
+LibName11=libcms
+LibName12=display
+LibName13=led
+LibName14=dip_sockets
+LibName15=pga_sockets
+LibName16=valves
+LibName17=LQFP48
+LibName18=PLCC4
+LibName19=USB_FULHAKK
+LibName20=SMD_ARRAY
+LibName21=KANELBULLE
