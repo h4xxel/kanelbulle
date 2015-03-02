@@ -23,7 +23,12 @@ IN THE SOFTWARE.
 #ifndef __MAIN_H_
 #define __MAIN_H_
 
-extern int global_timer;
+#include <stdint.h>
+
+#define BLUETOOTH_NAME "Solplugg"
+#define BLUETOOTH_PIN "0000"
+
+extern uint32_t global_timer;
 
 
 #endif

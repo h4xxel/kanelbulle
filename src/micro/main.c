@@ -29,7 +29,7 @@ IN THE SOFTWARE.
 #include "led.h"
 #include "i2c.h"
 
-int global_timer;
+uint32_ t global_timer;
 
 void initialize(void) {
 	/* TODO: Set CPU clock etc. */
@@ -58,14 +58,21 @@ void initialize(void) {
 }
 
 void systick_irq() {
+	/*Here we flash the leds very much.*/
 	global_timer++;
 }
 
-void systick_enable() {
-	/* Trig 100 times per second */
-	SysTick->LOAD = SYSTEM_CLOCK / 100;
+void systick_setup(bool enable, uint32_t frequency) {
+	/* Frequency in Hertz */
+	global_timer = 0;
+	SysTick->LOAD = SYSTEM_CLOCK / frequency;
 	SysTick->VAL = 0;
-	SysTick->CTRL = 0x1 | 0x2 | 0x4;
+	SysTick->CTRL = enable ? (0x1 | 0x2 | 0x4) : 0x0;
+}
+
+void systick_enable(bool enable) {
+	global_timer = 0;
+	SysTick->CTRL = enable ? (0x1 | 0x2 | 0x4) : 0x0;
 }
 
 Led led[5] = {};
@@ -89,6 +96,8 @@ void update_leds() {
 }
 
 int do_cmd(const char *cmd) {
+	int16_t c;
+	
 	switch(*cmd) {
 		case 'P':
 			energy.produced = atoi(cmd + 2);
@@ -97,6 +106,17 @@ int do_cmd(const char *cmd) {
 			energy.consumed = atoi(cmd + 2);
 			break;
 		case 'S':
+			systick_enable(true);
+			while(global_timer < 50) {
+				/*While waiting for timer, NAK every incoming command*/
+				if((c = uart_recv_try()) >= 0) {
+					while(c != '\n')
+						c = uart_recv_char();
+					uart_send_string("N\n");
+				}
+			}
+			systick_enable(false);
+			
 			break;
 		default:
 			return -1;
@@ -135,18 +155,18 @@ int main(int ram, char **argv) {
 	initialize();
 	util_delay(2000000);
 
-	systick_enable();
+	systick_setup(false, 50);
 	uart_printf("AT");
 	uart_recv_char();
 	uart_recv_char();
-	uart_printf("AT+NAMESolplugg");
+	uart_printf("AT+NAME" BLUETOOTH_NAME);
 	/* OK */
 	for (i = 0; i < 2; i++)
 		uart_recv_char();
 	/* setname */
 	for (i = 0; i < 7; i++)
 		uart_recv_char();
-	uart_printf("AT+PIN0000");
+	uart_printf("AT+PIN" BLUETOOTH_PIN);
 	for (i = 0; i < 2; i++)
 		uart_recv_char();
 	for (i = 0; i < 7; i++)
