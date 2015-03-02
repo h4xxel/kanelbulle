@@ -109,6 +109,7 @@ void read_cmd() {
 	buffer[32] = 0x0;
 	int i = 0;
 	
+	uart_send_string("A\n");
 	for(;;) {
 		update_leds();
 		while(i < 32) {
@@ -121,6 +122,7 @@ void read_cmd() {
 					uart_send_string("A\n");
 				continue;
 			}
+			i++;
 		}
 		while(uart_recv_char() != '\n');
 		uart_send_string("N\n");
