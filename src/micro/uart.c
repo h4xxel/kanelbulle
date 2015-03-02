@@ -231,10 +231,9 @@ uint8_t uart_recv_char(void) {
 void uart_recv_raw(unsigned char *buff, int bytes) {
 	int i;
 
-	for (i = 0; i < bytes; i++) {
+	for (i = 0; i < bytes; i++)
 		buff[i] = uart_recv_char();
-		//uart_printf("arne 0x%X\n", buff[i]);
-	}
+	
 	return;
 }
 
@@ -243,40 +242,4 @@ uint16_t uart_recv_try(void) {
 	if (LPC_UART->LSR & 1)
 		return LPC_UART->RBR | 0x100;
 	return 0;
-}
-
-
-void uart_loop(void) {
-	char cmd[16]/*, done[17]*/;
-	int i, /*j,*/ command, arg;
-
-	uart_send_string(" > ");
-
-	for (i = 0;; ) {
-		if (LPC_UART->LSR & 1) {
-			cmd[i] = LPC_UART->RBR;
-			if (i == 15)
-				LPC_UART->THR = '\b';
-
-			LPC_UART->THR = cmd[i];
-			if ((cmd[i] >= '0' && cmd[i] <= '9') || (cmd[i] >= 'A' && cmd[i] <= 'F') || cmd[i] == ' ') {
-				if (i < 15)
-					i++;
-			} else if (cmd[i] == '\n')
-				break;
-			else if (i < 15)
-				LPC_UART->THR = '\b';
-		}
-	}
-
-	if (!i)
-		return;
-	command = arg = 0;
-
-	util_str_to_bin(cmd, i);
-	memcpy(&command, cmd, 1);
-	memcpy(&arg, &cmd[1], 4);
-	uart_send_string("\n");
-
-	return;
 }

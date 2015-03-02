@@ -71,46 +71,6 @@ void util_delay(int us) {
 }
 
 
-int util_char_to_nibble(unsigned char n) {
-	if (n <= '9')
-		return n - '0';
-	return n - 'A' + 0xA;
-}
-
-
-char util_nibble_to_char(int n) {
-	if (n <= 9)
-		return n + '0';
-	return n + ('A' - 0xA);
-}
-
-
-void util_bin_to_str(unsigned char *str, char *target, int bytes) {
-	int i;
-
-	for (i = 0; i < bytes; i++) {
-		target[(i << 1) + 1] = util_nibble_to_char(str[i] >> 4);
-		target[(i << 1)] = util_nibble_to_char(str[i] & 0xF);
-	}
-	
-	return;
-}
-
-
-void util_str_to_bin(char *str, int chars) {
-	int i, t;
-
-	for (i = 0; i < chars; i++) {
-		t =  util_char_to_nibble((unsigned) str[i]) << (i & 1 ? 0 : 4);
-		if (!(i & 1))
-			str[i >> 1] = 0;
-		str[i >> 1] |= t;
-	}
-
-	return;
-}
-
-
 void *memcpy(void *dest, void *src, int bytes) {
 	char *dst, *sr;
 	
@@ -124,7 +84,6 @@ void *memcpy(void *dest, void *src, int bytes) {
 
 
 void system_reset() {
-	uart_send_string("Anarki på skassibussen\n");
 	while (!(LPC_GPIO3->DATA & 0x2));
 	while(!(LPC_UART->LSR & 0x40));
 	NVIC_SystemReset();
