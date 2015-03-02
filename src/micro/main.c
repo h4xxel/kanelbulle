@@ -114,11 +114,13 @@ void read_cmd() {
 			if((buffer[i] = uart_recv_char()) == '\n') {
 				buffer[i] = 0;
 				i = 0;
+				uart_send_string("A\n");
 				do_cmd(buffer);
 				continue;
 			}
 		}
 		while(uart_recv_char() != '\n');
+		uart_send_string("N\n");
 		i = 0;
 	}		
 }
