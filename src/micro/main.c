@@ -62,8 +62,8 @@ void systick_irq() {
 }
 
 void systick_enable() {
-	/* Trig 8000 times per second */
-	SysTick->LOAD = SYSTEM_CLOCK / 8000;
+	/* Trig 100 times per second */
+	SysTick->LOAD = SYSTEM_CLOCK / 100;
 	SysTick->VAL = 0;
 	SysTick->CTRL = 0x1 | 0x2 | 0x4;
 }
