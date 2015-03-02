@@ -26,6 +26,8 @@ IN THE SOFTWARE.
 #include "util.h"
 #include "uart.h"
 #include "main.h"
+#include "led.h"
+#include "i2c.h"
 
 int global_timer;
 
@@ -68,6 +70,7 @@ void systick_enable() {
 
 int main(int ram, char **argv) {
 	int i;
+	Led led[5] = {};
 	initialize();
 	util_delay(2000000);
 
@@ -75,7 +78,7 @@ int main(int ram, char **argv) {
 	uart_printf("AT");
 	uart_recv_char();
 	uart_recv_char();
-	uart_printf("AT+NAMEarnearnearne");
+	uart_printf("AT+NAMESolplugg");
 	/* OK */
 	for (i = 0; i < 2; i++)
 		uart_recv_char();
@@ -88,8 +91,15 @@ int main(int ram, char **argv) {
 	for (i = 0; i < 7; i++)
 		uart_recv_char();
 	
-	
+	i2c_init();
+	led_init(0x0);
 	while(1) {
+		led[3].r++;
+		if(led[3].r >= 4096)
+			led[3].r = 0;
+		
+		led_set(0x0, led);
+		util_delay(250);
 	}
 	
 	return 0;

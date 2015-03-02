@@ -1,8 +1,6 @@
-update=tis  3 feb 2015 16:43:47
+update=tis 17 feb 2015 15:49:18
 version=1
-last_client=pcbnew
-[general]
-version=1
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -92,3 +90,5 @@ LibName18=PLCC4
 LibName19=USB_FULHAKK
 LibName20=SMD_ARRAY
 LibName21=KANELBULLE
+[general]
+version=1
