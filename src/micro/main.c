@@ -68,9 +68,63 @@ void systick_enable() {
 	SysTick->CTRL = 0x1 | 0x2 | 0x4;
 }
 
+Led led[5] = {};
+struct {
+	int produced;
+	int consumed;
+} energy;
+
+void update_leds() {
+	int prod, cons, i;
+	
+	prod = energy.produced/20;
+	cons = energy.consumed/20;
+	
+	for(i = 0; i < 5; i++) {
+		led[i].g = i <= prod ? 0xFFF : 0x0;
+		led[i].r = i > cons ? 0xFFF : 0x0;
+	}
+	
+	led_set(0xAA, led);
+}
+
+void do_cmd(const char *cmd) {
+	switch(*cmd) {
+		case 'P':
+			energy.produced = atoi(cmd + 2);
+			break;
+		case 'C':
+			energy.consumed = atoi(cmd + 2);
+			break;
+		case 'S':
+			break;
+		default:
+			return;
+	}
+	update_leds();
+}
+
+void read_cmd() {
+	char buffer[33];
+	buffer[32] = 0x0;
+	int i = 0;
+	
+	for(;;) {
+		while(i < 32) {
+			if((buffer[i] = uart_recv_char()) == '\n') {
+				buffer[i] = 0;
+				i = 0;
+				do_cmd(buffer);
+				continue;
+			}
+		}
+		while(uart_recv_char() != '\n');
+		i = 0;
+	}		
+}
+
 int main(int ram, char **argv) {
 	int i;
-	Led led[5] = {};
 	initialize();
 	util_delay(2000000);
 
@@ -92,15 +146,8 @@ int main(int ram, char **argv) {
 		uart_recv_char();
 	
 	i2c_init();
-	led_init(0x0);
-	while(1) {
-		led[3].r++;
-		if(led[3].r >= 4096)
-			led[3].r = 0;
-		
-		led_set(0x0, led);
-		util_delay(250);
-	}
+	led_init(0xAA);
+	read_cmd();
 	
 	return 0;
 }
