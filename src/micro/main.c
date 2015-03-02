@@ -29,7 +29,7 @@ IN THE SOFTWARE.
 #include "led.h"
 #include "i2c.h"
 
-uint32_ t global_timer;
+uint32_t global_timer;
 
 void initialize(void) {
 	/* TODO: Set CPU clock etc. */
