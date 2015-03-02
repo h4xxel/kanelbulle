@@ -85,10 +85,10 @@ void update_leds() {
 		led[i].r = i > cons ? 0xFFF : 0x0;
 	}
 	
-	led_set(0xAA, led);
+	//led_set(0xAA, led);
 }
 
-void do_cmd(const char *cmd) {
+int do_cmd(const char *cmd) {
 	switch(*cmd) {
 		case 'P':
 			energy.produced = atoi(cmd + 2);
@@ -99,9 +99,9 @@ void do_cmd(const char *cmd) {
 		case 'S':
 			break;
 		default:
-			return;
+			return -1;
 	}
-	update_leds();
+	return 0;
 }
 
 void read_cmd() {
@@ -110,12 +110,15 @@ void read_cmd() {
 	int i = 0;
 	
 	for(;;) {
+		update_leds();
 		while(i < 32) {
 			if((buffer[i] = uart_recv_char()) == '\n') {
 				buffer[i] = 0;
 				i = 0;
-				uart_send_string("A\n");
-				do_cmd(buffer);
+				if(do_cmd(buffer) < 0)
+					uart_send_string("N\n");
+				else
+					uart_send_string("A\n");
 				continue;
 			}
 		}
@@ -147,8 +150,8 @@ int main(int ram, char **argv) {
 	for (i = 0; i < 7; i++)
 		uart_recv_char();
 	
-	i2c_init();
-	led_init(0xAA);
+	//i2c_init();
+	//led_init(0xAA);
 	read_cmd();
 	
 	return 0;
