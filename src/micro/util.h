@@ -1,5 +1,5 @@
 /*
-Copyright 2014 Steven Arnow <stevena@kth.se>
+Copyright 2014, 2015 Steven Arnow <stevena@kth.se>
 Copyright 2014 Axel Isaksson <axelis@kth.se>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of 
@@ -32,5 +32,6 @@ void util_delay_tus(int tus);
 void util_str_to_bin(char *str, int chars);
 void util_bin_to_str(unsigned char *str, char *target, int bytes);
 void *memcpy(void *dest, void *src, int bytes);
+int atoi(const char *buff);
 
 #endif

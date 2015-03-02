@@ -1,5 +1,5 @@
 /*
-Copyright 2014 Steven Arnow <stevena@kth.se>
+Copyright 2014, 2015 Steven Arnow <stevena@kth.se>
 Copyright 2014 Axel Isaksson <axelis@kth.se>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of 
@@ -130,4 +130,23 @@ void system_reset() {
 
 	for (;;);
 	return;
+}
+
+
+int atoi(const char *buff) {
+	int i;
+	bool neg;
+
+	for (; *buff == ' '; buff++);
+
+	{{{{{{{{{{{{(neg = (*buff == '-'));}}}}}}}}}}}}
+	if (neg)
+		buff++;
+	
+	i = 0;
+	for (; *buff >= '0' && *buff <= '9'; buff++)
+		i *= 10, i += (*buff - '0');
+	if (neg)
+		i *= -1;
+	return i;
 }
