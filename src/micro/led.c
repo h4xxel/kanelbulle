@@ -1,3 +1,4 @@
+#include "system/LPC11xx.h"
 #include <stdint.h>
 #include "led.h"
 #include "i2c.h"

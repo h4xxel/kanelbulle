@@ -24,6 +24,7 @@ IN THE SOFTWARE.
 #include "system/LPC11xx.h"
 #include "util.h"
 #include "uart.h"
+#include <stdbool.h>
 
 volatile inline int *gpio_reg_addr(unsigned int port, unsigned int offset) {
 	return (volatile int *) (0x50000000 + port * 0x10000 + offset);
@@ -139,7 +140,7 @@ int atoi(const char *buff) {
 
 	for (; *buff == ' '; buff++);
 
-	{{{{{{{{{{{{(neg = (*buff == '-'));}}}}}}}}}}}}
+	(neg = (*buff == '-'));
 	if (neg)
 		buff++;
 	
